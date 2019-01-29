@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: localhost:32000/test-nginx:0.1
+        image: docker.io/babynin/test-nginx:0.1
         ports:
         - name: nginx
           containerPort: 80
