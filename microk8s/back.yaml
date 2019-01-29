@@ -28,7 +28,7 @@ spec:
         app: backend
     spec:
       containers:
-      - image: localhost:32000/test-go:0.1
+      - image: docker.io/babynin/test-go:0.1
         name: backend
         resources:
           limits:
