@@ -22,7 +22,7 @@ elif [ "$varname" == log ]; then
     if [ "$podname" == f ]; then
     "$ctl" logs -l pod=frontend "$space"
     elif [ "$podname" == b ]; then
-    "$ctl" logs -l pod=backend "$space"
+    "$ctl" logs pod=backend "$space"
     fi
 else
     echo "Choose from possible: create, delete, get, log"
