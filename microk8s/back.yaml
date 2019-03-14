@@ -36,3 +36,4 @@ spec:
             memory: 100Mi
         ports:
         - containerPort: 3000
+---        
