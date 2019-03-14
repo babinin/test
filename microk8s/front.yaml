@@ -9,8 +9,7 @@ spec:
   ports:
   - port: 80
   selector:
-    app: frontend 
-    
+    app: frontend     
 ---
 apiVersion: apps/v1
 kind: Deployment
