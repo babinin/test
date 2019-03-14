@@ -35,5 +35,4 @@ spec:
           requests:
             memory: 100Mi
         ports:
-        - containerPort: 3000
----        
+        - containerPort: 3000     
