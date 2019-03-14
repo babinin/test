@@ -27,7 +27,7 @@ spec:
         app: backend
     spec:
       containers:
-      - image: docker.io/babynin/test-go
+      - image: index.docker.io/babynin/test-go
         name: backend
         resources:
           limits:
