@@ -10,7 +10,6 @@ spec:
   - port: 3000
   selector:
     app: backend
-
 ---
 apiVersion: apps/v1
 kind: Deployment
