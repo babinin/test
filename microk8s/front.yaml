@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: docker.io/babynin/test-nginx
+        image: index.docker.io/babynin/test-nginx
         ports:
         - name: nginx
           containerPort: 80
