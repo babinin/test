@@ -17,7 +17,7 @@ metadata:
   name: backend
   namespace: test
 spec:
-  replicas: 3
+  replicas: 5
   selector:
     matchLabels:
       app: backend
@@ -31,8 +31,8 @@ spec:
         name: backend
         resources:
           limits:
-            memory: 100Mi
+            memory: 50Mi
           requests:
-            memory: 100Mi
+            memory: 50Mi
         ports:
         - containerPort: 3000     
